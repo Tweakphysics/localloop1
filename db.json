@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alex Rivera",
+      "avatarUrl": "https://picsum.photos/id/64/100/100",
+      "isVerified": true,
+      "rating": 4.9,
+      "reviewCount": 24,
+      "joinedDate": "2023-01-15",
+      "responseTime": "< 1 hour"
+    },
+    {
+      "id": "o1",
+      "name": "Sarah Chen",
+      "avatarUrl": "https://picsum.photos/id/65/100/100",
+      "isVerified": true,
+      "rating": 4.8,
+      "reviewCount": 156,
+      "joinedDate": "2022-11-01",
+      "responseTime": "~2 hours"
+    },
+    {
+      "id": "o2",
+      "name": "Mike Ross",
+      "avatarUrl": "https://picsum.photos/id/91/100/100",
+      "isVerified": false,
+      "rating": 4.5,
+      "reviewCount": 12,
+      "joinedDate": "2023-03-10",
+      "responseTime": "< 30 mins"
+    }
+  ],
+  "listings": [
+    {
+      "id": "l1",
+      "ownerId": "o1",
+      "title": "Professional DSLR Camera Kit (Canon 5D)",
+      "description": "Perfect for weekend shoots. Includes 24-70mm lens, tripod, and carrying bag. Well maintained.",
+      "category": "Electronics",
+      "images": ["https://picsum.photos/id/250/800/600", "https://picsum.photos/id/251/800/600"],
+      "price": 45,
+      "currency": "$",
+      "period": "day",
+      "deposit": 500,
+      "transactionType": "RENT",
+      "location": {
+        "lat": 40.7128,
+        "lng": -74.0060,
+        "addressShort": "North Hill • 0.8km",
+        "distanceKm": 0.8
+      },
+      "available": true,
+      "tags": ["Photography", "Professional", "Camera"],
+      "rating": 5.0
+    },
+    {
+      "id": "l2",
+      "ownerId": "o2",
+      "title": "Heavy Duty Power Drill",
+      "description": "DeWalt cordless drill with 2 batteries. Great for home improvement projects.",
+      "category": "Tools",
+      "images": ["https://picsum.photos/id/192/800/600"],
+      "price": 15,
+      "currency": "$",
+      "period": "day",
+      "transactionType": "RENT",
+      "location": {
+        "lat": 40.7140,
+        "lng": -74.0080,
+        "addressShort": "Market St • 1.2km",
+        "distanceKm": 1.2
+      },
+      "available": true,
+      "tags": ["DIY", "Tools", "Construction"],
+      "rating": 4.7
+    },
+    {
+      "id": "l3",
+      "ownerId": "o1",
+      "title": "Camping Tent (4 Person)",
+      "description": "Waterproof, easy setup. Used twice. Moving out so selling it cheap.",
+      "category": "Outdoors",
+      "images": ["https://picsum.photos/id/292/800/600", "https://picsum.photos/id/293/800/600"],
+      "price": 80,
+      "currency": "$",
+      "period": "flat",
+      "transactionType": "SELL",
+      "location": {
+        "lat": 40.7110,
+        "lng": -74.0040,
+        "addressShort": "Green Park • 2.5km",
+        "distanceKm": 2.5
+      },
+      "available": true,
+      "tags": ["Camping", "Outdoor", "Sale"],
+      "rating": 4.9
+    },
+    {
+      "id": "l4",
+      "ownerId": "o2",
+      "title": "Portable Bluetooth Speaker",
+      "description": "JBL Charge 5. Loud, waterproof, great battery life. Perfect for parties.",
+      "category": "Party",
+      "images": ["https://picsum.photos/id/145/800/600"],
+      "price": 10,
+      "currency": "$",
+      "period": "day",
+      "transactionType": "RENT",
+      "location": {
+        "lat": 40.7150,
+        "lng": -74.0020,
+        "addressShort": "Downtown • 0.3km",
+        "distanceKm": 0.3
+      },
+      "available": true,
+      "tags": ["Music", "Party", "Audio"],
+      "rating": 4.8
+    }
+  ],
+  "bookings": []
+}

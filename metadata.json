@@ -1,0 +1,8 @@
+{
+  "name": "LocalLoop",
+  "description": "A hyperlocal community marketplace to borrow, buy, and sell items securely within your neighborhood.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ]
+}
